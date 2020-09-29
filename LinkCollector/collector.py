@@ -44,8 +44,4 @@ if __name__ == "__main__":
     collector = LinkCollector('http://localhost:8000')
     collector.collect_links()
     for link, item in collector.collected_links.items():
-<<<<<<< HEAD
         print("{}: {}".format(link, item))
-=======
-        print("{}: {}".format(link, item))
->>>>>>> b60de6c688324affafee9d86db6e84ddd33212c1
